@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "/pokepedia-ball.png";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import PreLoader from "./components/PreLoader/PreLoader";
@@ -9,6 +9,7 @@ function App() {
   const [contentLoaded, setContentLoaded] = useState(true);
 
   useEffect(() => {
+    document.title = "Poképedia";
     const timeout = setTimeout(() => {
       setContentLoaded(false);
     }, 2000);
