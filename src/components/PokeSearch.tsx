@@ -50,6 +50,9 @@ const PokeSearch = () => {
     </option>
   ));
 
+  // Activated with the Enter Key
+  // Checks if the entered value matches a Pokemon name
+  // Returns a message under the input field after a valid Pokemon is entered, message disappears after 3 seconds
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     const pokeName = pokemon.map((poke) => poke.name.toLowerCase());
     if (event.key === "Enter") {
@@ -68,6 +71,8 @@ const PokeSearch = () => {
     }
   };
 
+  // Capitalizes the first letter of the Pokemon's name/s
+  // Deals with Pokemon that have a "-" in their names, replaces the "-" with a space, " "
   useEffect(() => {
     if (selectedPokemon) {
       if (selectedPokemon.includes("-")) {
