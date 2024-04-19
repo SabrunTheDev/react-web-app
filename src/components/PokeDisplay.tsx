@@ -1,17 +1,9 @@
 import React, { useEffect, useState } from "react";
-import PokeSearch from "./PokeSearch";
 import axios from "axios";
 
 const PokeDisplay = () => {
-  const [pokemonImage, setPokemonImage] = useState();
-
-  useEffect(() => {
-    axios.get("https://pokeapi.co/api/v2/pokemon").then((res) => {});
-  }, []);
-
   return (
     <>
-      <PokeSearch />
       <section id="single-display">
         <div className="container col-xxl-8 px-4 py-5">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">

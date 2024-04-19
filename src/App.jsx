@@ -28,8 +28,7 @@ function App() {
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a>
           <div>
-            <PokeDisplay />
-
+            <PokeSearch />
             <PokeFooter />
           </div>
         </>
