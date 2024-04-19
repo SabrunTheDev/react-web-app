@@ -33,10 +33,20 @@
   }
 }
 
-.card {
-  padding: 2em;
+#poke-search-input {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
-.read-the-docs {
-  color: #888;
+.refresh {
+  display: flex;
+  justify-content: center;
+}
+
+#refresh-button {
+  color: white;
+}
+
+#pokepedia-footer {
+  font-size: small;
 }
