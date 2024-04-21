@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import reactLogo from "/pokepedia-ball.png";
-import viteLogo from "/vite.svg";
+import pokeBall from "/pokepedia-ball.png";
 import "./App.css";
 import PreLoader from "./components/PreLoader/PreLoader";
 import PokeSearch from "./components/PokeSearch.tsx";
@@ -25,7 +24,7 @@ function App() {
         <>
           <a></a>
           <a target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
+            <img src={pokeBall} className="logo react" alt="React logo" />
           </a>
           <div>
             <PokeSearch />

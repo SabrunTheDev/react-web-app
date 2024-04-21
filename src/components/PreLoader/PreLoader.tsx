@@ -10,7 +10,7 @@ const PreLoader = ({ show }: { show: boolean }) => {
 
   return (
     <div className={`preloader ${loading ? "show" : "hide"}`}>
-      <img src=".\public\Pokepedia.png" alt="Pokepedia Logo" />
+      <img src="./Pokepedia.png" alt="Pokepedia Logo" />
     </div>
   );
 };
