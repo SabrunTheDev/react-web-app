@@ -125,7 +125,9 @@ const PokeSearch = () => {
     setpokemonDisplayImg(updatedPokemon.map((poke) => poke.imageUrl));
   }, [pokemon]);
 
-  console.log(pokemonDisplayImg);
+  if (!loading) {
+    console.log(pokemonDisplayImg);
+  }
 
   return (
     <>
