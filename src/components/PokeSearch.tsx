@@ -147,7 +147,7 @@ const PokeSearch = () => {
               className="form-control center"
               list="datalistOptions"
               id="poke-search-input"
-              placeholder="What's that Pokemon?..."
+              placeholder="Who's that Pokemon?..."
               data-bs-theme="dark"
               onKeyDown={handleKeyDown}
             />

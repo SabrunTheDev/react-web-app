@@ -4,8 +4,8 @@ import axios from "axios";
 const PokeDisplay = () => {
   return (
     <>
-      <section id="single-display">
-        <div className="container col-xxl-8 px-4 py-5">
+      <section id="single-display" className="text-center">
+        <div className="container ">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div
               className="col-10 col-sm-12 col-lg-6 align-items-center"
