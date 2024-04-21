@@ -55,4 +55,4 @@ This project is licensed under the [MIT License](/LICENSE.MIT).
 
 ## Acknowledgements
 
-- Pokémon data provided by [PokéAPI](https://pokeapi.co/).
+Special thanks to the PokéAPI for providing most of the the Pokémon data used in this application.
