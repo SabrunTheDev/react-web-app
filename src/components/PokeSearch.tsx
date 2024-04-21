@@ -70,7 +70,7 @@ const PokeSearch = () => {
           setSelectedPokemon("");
         }, 3000);
       } else {
-        console.log("Invalid Pokemon");
+        setPokemonUpperCase(<p className="mt-3">That's not a Pokemon!</p>);
       }
     }
   };
